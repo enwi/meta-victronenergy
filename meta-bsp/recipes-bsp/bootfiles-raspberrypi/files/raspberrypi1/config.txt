@@ -1,0 +1,16 @@
+kernel=u-boot.bin
+
+[pi1]
+device_tree=bcm2835-rpi-b.dtb
+
+[pi1+]
+device_tree=bcm2835-rpi-b-plus.dtb
+
+[pi0]
+device_tree=bcm2835-rpi-zero.dtb
+
+[pi01]
+device_tree=bcm2835-rpi-zero-w.dtb
+
+[all]
+dtparam=spi=on
